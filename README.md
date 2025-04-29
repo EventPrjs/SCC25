@@ -6,6 +6,8 @@ Resolution: 1920 x 1080
 
 Probiere mal diese Kombinationen ohne Makey Makey, nur mit Tastatur:
 
+https://learn.sparkfun.com/tutorials/makey-makey-classic-hookup-guide/hardware-overview
+
 Tastenkombination	Geht?
 Up + Left	✅
 Up + Left + Right	✅
