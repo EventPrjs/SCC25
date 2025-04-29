@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56938e8e32686e04fb7541153ec8fdf9, type: 3}
+  m_Name: 7Segment
+  m_EditorClassIdentifier: 
+  taskName: 7-Segment Anzeige
+  description: "Baue eine 7-Segment-Anzeige und verbinde sie mit dem Makey Makey.\n\nDeine
+    Aufgabe:\nBring die Anzeige dazu, die Zahl 3 zu zeigen.\n\nWenn alles stimmt,
+    dr\xFCcke auf \u201E\xDCbernehmen\u201C, um die erste Stelle des Codes zu speichern."
+  targetDigit: 3
+  taskID: 1
