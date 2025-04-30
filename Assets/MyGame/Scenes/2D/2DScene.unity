@@ -360,6 +360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   digits: {fileID: 1897095060}
+  manager: {fileID: 1454623907}
   interval: 0.1
 --- !u!4 &66402791
 Transform:
@@ -5121,7 +5122,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7e304b923d3f541978704cc108d12c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  membersInputFields: []
+  membersInputFields:
+  - {fileID: 1135784796}
+  - {fileID: 1731526161}
+  - {fileID: 2004671715}
+  - {fileID: 2006139155}
   welcomeObj: {fileID: 347033722}
   taskData:
   - {fileID: 11400000, guid: 754ef71ce9ff8c54b83ccdf2af976ff7, type: 2}
@@ -5130,6 +5135,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 959e14166add51945b9ae04b5b8fcdef, type: 2}
   heading: {fileID: 1560400804}
   description: {fileID: 2060807089}
+  digitLoop: {fileID: 66402789}
   sevenSegment: {fileID: 5845968239844888675}
 --- !u!1 &1479839337
 GameObject:
@@ -5213,7 +5219,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1479839340}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 66402790}
+        m_TargetAssemblyTypeName: DigitLoop, Assembly-CSharp
+        m_MethodName: SetDigit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1479839340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8840,6 +8858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f44c4fbbbea67c745b18aedb69244449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 1454623907}
   extendedYPostion: -0.7
   retractedYPosition: 0
   allOn: 0
