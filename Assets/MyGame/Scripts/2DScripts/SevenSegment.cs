@@ -30,7 +30,7 @@ public class SevenSegment : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow)) 
+     /*   if (Input.GetKeyDown(KeyCode.DownArrow)) 
         {
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -50,7 +50,7 @@ public class SevenSegment : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.W)) 
         { 
-        }
+        }*/
     }
 
     // Eingabe: bool[7] → Ausgabe: Zahl oder -1
