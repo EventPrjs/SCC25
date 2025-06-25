@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MyGame/Scenes/2D/Only7SegmentGlow.unity
+    guid: 209e51309eb273e47996153ede4f54df
   m_configObjects: {}
